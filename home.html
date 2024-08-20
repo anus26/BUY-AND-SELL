@@ -11,16 +11,13 @@
           <a class="btn btn-ghost text-xl">buy/sell corner</a>
         </div>
         <div class="flex-none gap-2">
-          <div class="form-control">
-            <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
-          </div>
+          
           <div class="dropdown dropdown-end">
             <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
               <div class="w-10 rounded-full">
                 <img
                   alt="Tailwind CSS Navbar component"
                   src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-                  <a href="index.html">login</a>
               </div>
             </div>
             <ul
@@ -32,18 +29,33 @@
                   <span class="badge">New</span>
                 </a>
               </li>
-              <li><a>Settings</a></li>
-              <li><a>Logout</a></li>
+              <li><a href="singin.html">singin</a></li>
+              <li><a href="index.html">login</a></li>
             </ul>
           </div>
         </div>
       </div>
+      <button id="logout-btn">logout</button>
       <h1 class="flex justify-center  mt-5">Post AD</h1>
       <div class="Post AD  flex items-center   bg-primary "    >
       
         
         <div class="card-body  ">
-       <button> <ion-icon  name="add-outline"></ion-icon></button>
+       <button> <ion-icon  name="add-outline"></ion-icon>
+       <div class="card bg-base-100 w-96 shadow-xl  mt-5">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Shoes!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div></button>
           <p>uploaded product photo</p>
          
         </div>
